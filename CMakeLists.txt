@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.23)
+project (LANGUAGE CSharp)
+project(HelloWorldCS)
+include (CSharpUtilities)
+add_executable(HelloWorldCS hello-world.cs)
